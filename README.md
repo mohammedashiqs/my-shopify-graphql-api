@@ -1,4 +1,4 @@
-# MY-WOOCOMMERCE-REST-API-APP (127.0.0.1:3000)
+# my-shopify-graphql-api (127.0.0.1:3000)
 
 
 1. Local node js application, List all orders(print to console) from Woocommerce shop placed between 12 DEC 2022 to 29 DEC 2022 and get result in ascending order by created at date. Implemented pagination with each page of limit 5.
