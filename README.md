@@ -8,7 +8,7 @@
 
 
 3. This app is developed according to the following technical aspects
-- Code quality 
+- Code quality
 - Accuracy
 - Readability
 - Modularity
