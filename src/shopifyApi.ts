@@ -6,15 +6,16 @@ export async function fetchShopifyData(query: string, variables?: any) {
   try {
     const response = await axios.post(
       `https://${shopifyConfig.shopName}/admin/api/${shopifyConfig.apiVersion}/graphql.json`,
-      {
-        query,
-        variables,
-      },
+    
       {
         headers: {
           'Content-Type': 'application/json',
           'X-Shopify-Access-Token': shopifyConfig.accessToken,
-        },
+        }
+      },
+      {
+        query,
+        variables,
       }
     );
 
