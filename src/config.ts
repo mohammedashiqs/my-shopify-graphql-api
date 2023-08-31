@@ -1,5 +1,5 @@
 export const shopifyConfig = {
-    accessToken: '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',
-    apiVersion: '2022-04',
-    shopName: 'hello24-d5.myshopify.com',
+    accessToken: process.env.ACCESS_TOKEN,
+    apiVersion: process.env.API_VERSION,
+    shopName: process.env.SHOP_NAME
   };

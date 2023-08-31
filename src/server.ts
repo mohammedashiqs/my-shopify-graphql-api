@@ -1,6 +1,9 @@
 import express from 'express';
+import dotenv from 'dotenv'
+dotenv.config()
+
 import ordersRouter from './routes/orders';
-//import productRouter from './routes/products'
+import productsRouter from './routes/products'
 
 
 const app = express();
@@ -13,7 +16,7 @@ app.get('/', (req, res) => {
 
 
 app.use('/orders', ordersRouter);
-//app.use('/products', productsRoute);
+app.use('/products', productsRouter);
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);

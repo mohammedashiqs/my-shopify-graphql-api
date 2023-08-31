@@ -1,7 +1,7 @@
 # my-shopify-graphql-api (127.0.0.1:3000)
 
 
-1. Local node js application, List all orders(print to console) from Woocommerce shop placed between 12 DEC 2022 to 29 DEC 2022 and get result in ascending order by created at date. Implemented pagination with each page of limit 5.
+1. Local node js application, List all orders(print to console) from shopify shop placed between 12 DEC 2022 to 29 DEC 2022 and get result in ascending order by created at date. Implemented pagination with each page of limit 5.
 
 2. We can Query all products available in the shop and get result items ordered by title in ascending order.
 
@@ -35,7 +35,7 @@ To deploy this project run
   npm start
 ```
 ## API Reference
-https://woocommerce.github.io/woocommerce-rest-api-docs/?javascript#introduction
+ https://shopify.dev/api/admin-graphql#client_libraries
 
 
 ## Routing
